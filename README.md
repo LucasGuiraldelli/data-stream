@@ -27,3 +27,14 @@ Essa arquitetura simula um sistema de ingestão contínua, como em um cenário d
 - Docker Desktop instalado e rodando (com suporte a WSL2)
 - Python 3.10+ com pip
 - VS Code ou outro editor
+
+### Instale as dependencias
+
+pip install kafka-python requests
+
+
+### Acesse o airflow:   http://localhost:8080
+
+Login padrão: airflow / airflow
+
+Ative a DAG coleta_api_para_kafka.
