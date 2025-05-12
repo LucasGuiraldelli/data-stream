@@ -1,0 +1,42 @@
+# Ambientes virtuais
+venv/
+.env/
+.envrc
+
+proj/
+.proj/
+
+# Arquivos do PyCharm/VSCode
+.idea/
+.vscode/
+
+# Arquivos Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.log
+
+# Arquivos temporários
+*.swp
+*.bak
+*.tmp
+.DS_Store
+
+# Arquivos de DAGs ou Airflow que são gerados
+airflow/logs/
+airflow/airflow.db
+airflow/unittests.cfg
+
+# Dados locais
+bronze/
+.parquet/
+*.csv
+
+# Contêiner
+*.pid
+*.sock
+
+# Docker volumes e cache
+**/.docker/
+**/cache/
+**/tmp/
